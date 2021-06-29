@@ -46,7 +46,7 @@ public class OrmLearnApplication {
 	public static void testAddCountry() {
 		LOGGER.info("Start:day 1 handson 7 - session 1 and 2");
 
-		Country country = new Country("cs", "cognizant");
+		Country country = new Country("cs", "mnbhu");
 		countryService.addCountry(country);
 
 		LOGGER.info("End:day 1 handson 7 - session 1 and 2");
